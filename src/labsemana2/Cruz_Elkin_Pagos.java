@@ -64,7 +64,7 @@ if(horas>40&&horas<=55){
     System.out.println("Nombre del empleado: "+ nombre);
     System.out.println("Apellido del empleado: "+apellido);
     System.out.println("Cantidad de horas trabajadas: "+horas);
-    System.out.println("Sueldo base: $"+(horas_normales*35.99));
+    System.out.println("Sueldo base: $"+String.format("%.2f",(horas_normales*35.99)));
     System.out.println("Horas extras: "+ horas_extras);
     System.out.println("Pago horas extras: $"+(pagohoras_extras*horas_extras));
     System.out.println("Categoria: "+categoria);

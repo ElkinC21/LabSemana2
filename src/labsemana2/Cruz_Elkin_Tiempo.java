@@ -24,7 +24,7 @@ int segundos= sobrante>0?sobrante-(minutos * 60) : 0;
  String resultado= segundos_total<=0?"No se permite este valor": "Horas:"+horas+" Minutos:"+minutos+ " Segundos:"+segundos;
  
  System.out.println(resultado);   
-         }
  
-    
-}
+ 
+ }
+ }
